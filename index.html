@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Multi-step register form">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Multi-step Register Form</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/" method="GET">
+            <div class="step">
+                <h2>Register</h2>
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter your name" required>
+                <div id="name-error" class="error-message" role="alert"></div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Example@gmail.com" required>
+                <div id="email-error" class="error-message" role="alert"></div>
+                <div class="button-container">
+                    <button type="button" class="continue-button">Continue</button>
+                </div>
+            </div>
+            <div class="step">
+                <h2>Which topics you are interested in?</h2>
+                <div id="topics-error" class="error-message" role="alert"></div>
+                <label for="software-development">
+                    <input type="checkbox" name="software-development" value="Software Development" id="software-development" class="topics" />
+                    <div>Software Development</div>
+                </label>
+                <label for="user-experience">
+                    <input type="checkbox" name="user-experience" value="User Experience" id="user-experience" class="topics"/>
+                    <div>User Experience</div>
+                </label>
+                <label for="graphic-design">
+                    <input type="checkbox" name="graphic-design" value="Graphic Design" id="graphic-design" class="topics"/>
+                    <div>Graphic Design</div>
+                </label>
+                <div class="button-container">
+                    <button type="button" class="continue-button">Continue</button>
+                </div>
+            </div>
+            <div class="step">
+                <h2>Summary</h2>
+                <p>Name: <span id="confirmName"></span></p>
+                <p>Email: <span id="confirmEmail"></span></p>
+                <p>Topics:</p>
+                <ul id="confirmTopics"></ul>
+                <div class="button-container">
+                    <button type="submit">Continue</button>
+                </div>
+            </div>
+        </form>
+        <div class="calculate-step">
+            <p>step <span></span> of 3</p>
+            <ul>
+                <li><span class="slider"></span></li>
+                <li><span class="slider"></span></li>
+                <li><span class="slider"></span></li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
